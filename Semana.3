@@ -1,0 +1,31 @@
+Codigo de Multiplicação em Assembly no site Little Man Computer
+
+INP
+	STA NUM1
+	INP
+	STA NUM2
+	
+	LDA ZERO
+	STA RESUL
+
+LOOP	LDA NUM2
+	BRZ END
+
+	LDA RESUL
+	ADD NUM1
+	STA RESUL
+	
+	LDA NUM2
+	SUB UM
+	STA NUM2 
+	
+	BRA LOOP
+END	LDA RESUL
+	OUT
+	HLT
+
+NUM1	DAT 0
+NUM2 	DAT 0
+UM	DAT 1
+RESUL	DAT 0
+ZERO	DAT 0
