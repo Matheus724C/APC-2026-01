@@ -1,0 +1,7 @@
+Nesse exercício, eu aprendi como funcionam as `structs` e as `unions` na linguagem C.
+
+No exercício 11a, a `struct` `Ponto` possui dois campos, `x` e `y`, que armazenam as coordenadas de um ponto. Os valores podem ser acessados diretamente usando o operador `.` ou por meio de um ponteiro utilizando o operador `->`. Quando o programa executa `ptr->x = 10`, o valor de `p.x` também é alterado para 10, pois o ponteiro está apontando para a mesma estrutura. A função `distancia()` recebe ponteiros para duas estruturas e calcula a distância ao quadrado entre os pontos.
+
+No exercício 11b, aprendi como funciona uma `union`. Diferente da `struct`, em que cada campo possui seu próprio espaço na memória, todos os membros da `union` compartilham a mesma área de memória. Assim, quando o programa grava o valor 65 em `d.i`, ele pode ser interpretado como o caractere `'A'` ao acessar `d.c`. Depois, ao armazenar o valor 3.14 em `d.f`, o conteúdo anterior é sobrescrito, fazendo com que `d.i` deixe de representar o valor anterior.
+
+Com esses exercícios, consegui entender que as `structs` servem para agrupar diferentes informações em uma única variável, enquanto as `unions` permitem que diferentes tipos compartilhem o mesmo espaço de memória.
