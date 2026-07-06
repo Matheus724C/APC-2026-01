@@ -1,1 +1,94 @@
+# Estudos de Linguagem C
 
+## Sobre o projeto
+
+Este repositório reúne todos os exercícios que desenvolvi durante meus estudos de Linguagem C. O objetivo foi aprender desde os conceitos básicos até assuntos mais avançados relacionados à manipulação de memória, ponteiros e organização de programas.
+
+Todos os exercícios foram implementados, compilados e testados utilizando GCC e analisados no PythonTutor para acompanhar o comportamento da memória durante a execução.
+
+---
+
+# Conteúdo estudado
+
+Durante o desenvolvimento deste projeto realizei exercícios sobre:
+
+* Estrutura de um programa em C
+* Tipos primitivos e tamanho das variáveis
+* Declaração e inicialização de variáveis
+* Operadores aritméticos, relacionais e lógicos
+* Estruturas de decisão (`if`, `switch`)
+* Estruturas de repetição (`for`, `while`, `do-while`)
+* Funções e recursão
+* Arrays e matrizes
+* Strings
+* Ponteiros
+* Alocação dinâmica com `malloc()` e `free()`
+* Structs, unions e enums
+* Entrada e saída de dados
+* Diretivas do pré-processador
+* Escopo e tempo de vida das variáveis
+* Boas práticas de programação em C
+
+---
+
+# O que aprendi
+
+Ao longo dos exercícios consegui compreender melhor como funciona a linguagem C e sua relação direta com a memória do computador.
+
+No início, aprendi a estrutura básica de um programa e a importância da função `main()`, além da utilização correta dos tipos primitivos e da inicialização de variáveis.
+
+Em seguida, pratiquei operadores, estruturas condicionais e laços de repetição. Esses exercícios ajudaram a entender como controlar o fluxo de execução de um programa e como resolver problemas utilizando diferentes estruturas.
+
+O estudo das funções mostrou como dividir um programa em partes menores e reutilizáveis. Também pude observar o funcionamento da pilha de chamadas (call stack), principalmente no exercício de recursão utilizando o cálculo do fatorial.
+
+Os exercícios envolvendo arrays e matrizes permitiram compreender como os dados são armazenados sequencialmente na memória e como percorrê-los utilizando laços de repetição.
+
+Durante o estudo de strings aprendi que elas são apenas vetores de caracteres terminados pelo caractere especial `'\0'`, além de utilizar funções da biblioteca `<string.h>`, como `strlen()` e `strcmp()`.
+
+A parte mais desafiadora foi o estudo dos ponteiros. Passei a entender que um ponteiro armazena o endereço de memória de uma variável e que é possível alterar seu valor por meio da dereferência utilizando o operador `*`. Os exercícios de ponteiro para ponteiro e aritmética de ponteiros ajudaram bastante a consolidar esse conhecimento.
+
+Outro conteúdo importante foi a alocação dinâmica de memória. Aprendi a utilizar `malloc()` para reservar espaço no heap e `free()` para liberar corretamente essa memória, evitando vazamentos.
+
+Também estudei structs, unions e enums. Com as structs compreendi como agrupar informações relacionadas em um único tipo de dado. As unions mostraram que diferentes tipos podem compartilhar a mesma região de memória. Já os enums facilitaram a representação de constantes inteiras de forma mais organizada.
+
+Por fim, os exercícios sobre escopo das variáveis e boas práticas reforçaram a importância de escrever programas mais seguros, organizados e fáceis de manter.
+
+---
+
+# Dificuldades encontradas
+
+O conteúdo que apresentou maior dificuldade foi o estudo de ponteiros e alocação dinâmica. No início foi complicado entender a diferença entre valor, endereço e ponteiro, além da relação entre stack e heap.
+
+A utilização do PythonTutor foi muito importante para visualizar a memória durante a execução dos programas, permitindo acompanhar o empilhamento das funções, a movimentação dos ponteiros e a área de memória alocada dinamicamente.
+
+Outra dificuldade foi compreender o comportamento das macros do pré-processador, principalmente quando recebem expressões como parâmetros. Após alguns testes ficou mais claro como ocorre a substituição textual antes da compilação.
+
+---
+
+# Boas práticas utilizadas
+
+Durante o desenvolvimento dos exercícios procurei seguir algumas boas práticas de programação:
+
+* Inicializar todas as variáveis antes do uso.
+* Comentar os trechos importantes do código.
+* Utilizar nomes de variáveis claros.
+* Liberar toda memória alocada dinamicamente utilizando `free()`.
+* Compilar os programas utilizando as opções `-Wall` e `-Wextra`.
+* Utilizar `const` sempre que possível para evitar modificações indevidas.
+
+---
+
+# Ferramentas utilizadas
+
+* Linguagem C
+* GCC
+* Visual Studio Code
+* PythonTutor
+
+---
+
+# Considerações finais
+
+Ao concluir este conjunto de exercícios, percebo uma evolução significativa na compreensão da linguagem C. Hoje consigo entender melhor como os programas utilizam a memória, como as funções são organizadas durante a execução e como estruturas como ponteiros e alocação dinâmica funcionam internamente.
+
+Este projeto serviu como uma base sólida para aprofundar os estudos em estruturas de dados, sistemas operacionais e desenvolvimento de software em baixo nível.
