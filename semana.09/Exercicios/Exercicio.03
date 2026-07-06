@@ -1,0 +1,7 @@
+Nesse exercício, eu aprendi a diferença entre declarar, inicializar e atribuir um valor para uma variável.
+
+A variável `a` já é criada com o valor 42, então ela pode ser usada normalmente desde o início do programa. Já a variável `b` é apenas declarada e, se fosse utilizada antes de receber um valor, teria um valor indefinido. No código, isso é resolvido quando fazemos `b = a + 8`, fazendo com que `b` passe a valer 50.
+
+Também foi possível observar o uso da palavra-chave `const`. A constante `N` recebe o valor 100 e não pode ser alterada durante a execução do programa. Quando a linha `N = 200` é descomentada, o compilador apresenta um erro, pois constantes são somente leitura.
+
+Com esse exercício, foi possível entender a importância de inicializar as variáveis antes de usá-las e como funcionam as constantes em C.
