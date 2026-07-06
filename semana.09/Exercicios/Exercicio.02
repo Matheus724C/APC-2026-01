@@ -1,1 +1,14 @@
+O programa mostra quanto espaço cada tipo de dado ocupa na memória usando o operador `sizeof`.
+
+Ao executar o código, normalmente aparecem os seguintes valores:
+
+* `char` = 1 byte
+* `int` = 4 bytes
+* `long` = 4 ou 8 bytes (depende do sistema operacional e do compilador)
+* `float` = 4 bytes
+* `double` = 8 bytes
+
+Quando trocamos `sizeof(int)` por `sizeof(short)`, o resultado geralmente é **2 bytes**, enquanto o `int` continua com **4 bytes**. Isso mostra que o `short` ocupa menos espaço na memória e consegue armazenar números menores que o `int`.
+
+Com esse exercício, foi possível entender que cada tipo de dado tem um tamanho diferente na memória, e que esses tamanhos podem variar um pouco dependendo do computador e do compilador utilizado.
 
