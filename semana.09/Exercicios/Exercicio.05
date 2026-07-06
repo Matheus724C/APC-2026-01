@@ -1,0 +1,11 @@
+Nos exercícios de controle de fluxo, eu aprendi como funcionam as estruturas de decisão e de repetição na linguagem C.
+
+No exercício 5a, o `if`, `else if` e `else` verificam a nota do aluno e mostram o conceito correspondente. Com a nota igual a 72, o programa imprime "C". Ao testar outros valores, como 55, 80 e 95, é possível perceber que apenas uma das condições é executada, dependendo do valor da nota.
+
+No exercício 5b, o laço `for` percorre os números de 0 a 9. O comando `continue` faz com que os números pares sejam ignorados, enquanto o `break` encerra o laço quando `i` chega a 7. Por isso, os valores impressos são 1, 3 e 5.
+
+No exercício 5c, o `do-while` executa o bloco de código antes de verificar a condição. A variável `n` começa com o valor 1 e vai dobrando a cada repetição, imprimindo 1, 2, 4, 8 e 16. Quando `n` passa a valer 32, o laço termina.
+
+No exercício 5d, o `switch` verifica o valor da variável `dia`. Como o valor é 3, o programa imprime "Dia útil". Também foi possível entender que vários `case` podem compartilhar o mesmo bloco de código e que o comando `break` é importante para impedir que a execução continue para os próximos casos.
+
+Com esses exercícios, consegui entender melhor como usar estruturas de decisão (`if` e `switch`) e de repetição (`for` e `do-while`), além da função dos comandos `break` e `continue`.
