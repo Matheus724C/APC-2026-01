@@ -1,0 +1,7 @@
+Nesse exercício, eu aprendi como funciona a alocação dinâmica de memória na linguagem C.
+
+O programa utiliza a função `malloc()` para reservar espaço no heap para um vetor com quatro posições. Depois, um laço `for` preenche o vetor com os valores 10, 20, 30 e 40, e outro laço imprime esses valores na tela.
+
+Ao final do programa, a função `free()` libera a memória que foi alocada, evitando desperdício de memória. Em seguida, o ponteiro recebe o valor `NULL`, o que ajuda a evitar que ele seja utilizado após a memória já ter sido liberada.
+
+Com esse exercício, consegui entender a diferença entre a memória da stack e do heap. As variáveis locais ficam na stack, enquanto a memória criada com `malloc()` fica no heap e precisa ser liberada manualmente usando `free()`.
