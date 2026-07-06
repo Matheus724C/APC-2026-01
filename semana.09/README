@@ -1,14 +1,14 @@
-# Estudos de Linguagem C
+Estudos de Linguagem C
 
-## Sobre o projeto
+Sobre o projeto
 
 Este repositório reúne todos os exercícios que desenvolvi durante meus estudos de Linguagem C. O objetivo foi aprender desde os conceitos básicos até assuntos mais avançados relacionados à manipulação de memória, ponteiros e organização de programas.
 
 Todos os exercícios foram implementados, compilados e testados utilizando GCC e analisados no PythonTutor para acompanhar o comportamento da memória durante a execução.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Conteúdo estudado
+Conteúdo estudado
 
 Durante o desenvolvimento deste projeto realizei exercícios sobre:
 
@@ -29,9 +29,11 @@ Durante o desenvolvimento deste projeto realizei exercícios sobre:
 * Escopo e tempo de vida das variáveis
 * Boas práticas de programação em C
 
----
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# O que aprendi
+
+
+O que aprendi
 
 Ao longo dos exercícios consegui compreender melhor como funciona a linguagem C e sua relação direta com a memória do computador.
 
@@ -53,9 +55,9 @@ Também estudei structs, unions e enums. Com as structs compreendi como agrupar 
 
 Por fim, os exercícios sobre escopo das variáveis e boas práticas reforçaram a importância de escrever programas mais seguros, organizados e fáceis de manter.
 
----
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Dificuldades encontradas
+Dificuldades encontradas
 
 O conteúdo que apresentou maior dificuldade foi o estudo de ponteiros e alocação dinâmica. No início foi complicado entender a diferença entre valor, endereço e ponteiro, além da relação entre stack e heap.
 
@@ -63,9 +65,9 @@ A utilização do PythonTutor foi muito importante para visualizar a memória du
 
 Outra dificuldade foi compreender o comportamento das macros do pré-processador, principalmente quando recebem expressões como parâmetros. Após alguns testes ficou mais claro como ocorre a substituição textual antes da compilação.
 
----
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Boas práticas utilizadas
+Boas práticas utilizadas
 
 Durante o desenvolvimento dos exercícios procurei seguir algumas boas práticas de programação:
 
@@ -76,18 +78,16 @@ Durante o desenvolvimento dos exercícios procurei seguir algumas boas práticas
 * Compilar os programas utilizando as opções `-Wall` e `-Wextra`.
 * Utilizar `const` sempre que possível para evitar modificações indevidas.
 
----
-
-# Ferramentas utilizadas
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Ferramentas utilizadas
 
 * Linguagem C
 * GCC
 * Visual Studio Code
 * PythonTutor
 
----
-
-# Considerações finais
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Considerações finais
 
 Ao concluir este conjunto de exercícios, percebo uma evolução significativa na compreensão da linguagem C. Hoje consigo entender melhor como os programas utilizam a memória, como as funções são organizadas durante a execução e como estruturas como ponteiros e alocação dinâmica funcionam internamente.
 
