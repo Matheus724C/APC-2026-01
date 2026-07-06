@@ -1,0 +1,7 @@
+Nesse exercício, eu aprendi como as strings são armazenadas e manipuladas na linguagem C.
+
+A string `s` recebe o valor `"Brasilia"` e a função `strlen()` é utilizada para calcular seu comprimento, que é 9 caracteres. Em seguida, um laço `for` percorre a string e imprime cada caractere junto com seu código ASCII.
+
+Depois, o programa cria outra string chamada `t` com o mesmo conteúdo. A função `strcmp()` compara as duas strings e retorna o valor 0, indicando que elas são iguais.
+
+Com esse exercício, consegui entender que uma string em C é um vetor de caracteres terminado pelo caractere especial `'\0'`, que indica o fim da string. Também aprendi como utilizar as funções `strlen()` para descobrir o tamanho da string e `strcmp()` para comparar duas strings.
