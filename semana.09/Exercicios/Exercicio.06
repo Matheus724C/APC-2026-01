@@ -1,0 +1,7 @@
+Nesse exercício, eu aprendi como funcionam as funções, a recursão e a passagem de parâmetros por referência na linguagem C.
+
+A função `fatorial()` calcula o fatorial de um número de forma recursiva. Quando é chamada com o valor 5, ela chama a si mesma várias vezes até chegar ao caso em que `n` é menor ou igual a 1. Depois disso, as chamadas vão retornando os valores até calcular o resultado final, que é 120.
+
+Também foi possível observar a função `dobra()`, que recebe o endereço de uma variável usando um ponteiro. Como ela altera o valor diretamente na memória, a variável `v`, que inicialmente vale 7, passa a valer 14 após a chamada da função.
+
+Com esse exercício, consegui entender como as funções organizam o programa, como funciona a recursão através da pilha de chamadas e como a passagem por referência permite modificar uma variável fora da função.
