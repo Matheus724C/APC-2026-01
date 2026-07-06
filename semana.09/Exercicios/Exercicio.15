@@ -1,0 +1,7 @@
+Nesse exercício, eu aprendi como funciona o escopo das variáveis e a diferença entre variáveis locais e `static`.
+
+No exercício 15a, existem duas variáveis chamadas `x`. A primeira é declarada fora do bloco e possui o valor 1. Dentro das chaves `{}`, é criada outra variável `x` com o valor 2, que existe apenas dentro desse bloco e esconde a variável externa. Quando o bloco termina, a variável interna deixa de existir e o programa volta a utilizar a variável externa, que continua com o valor 1.
+
+No exercício 15b, a variável `n` é declarada como `static` dentro da função `contador()`. Diferente de uma variável local comum, ela é criada apenas uma vez e mantém seu valor entre as chamadas da função. Por isso, ao chamar a função três vezes, os valores impressos são 1, 2 e 3.
+
+Com esses exercícios, consegui entender que o escopo determina onde uma variável pode ser utilizada e que uma variável `static` mantém seu valor durante toda a execução do programa, mesmo estando declarada dentro de uma função.
