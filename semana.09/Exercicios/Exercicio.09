@@ -1,0 +1,9 @@
+Nesse exercício, eu aprendi como funcionam os ponteiros e como eles podem acessar e modificar variáveis na linguagem C.
+
+No exercício 9a, a variável `p` armazena o endereço da variável `x`. Ao utilizar `*p`, é possível acessar o valor armazenado em `x`. Quando o programa executa `*p = 99`, o valor de `x` também muda para 99, mostrando que o ponteiro permite alterar a variável diretamente pelo seu endereço.
+
+No exercício 9b, observei como funciona a aritmética de ponteiros. O ponteiro `p` começa apontando para o primeiro elemento do vetor e, ao utilizar expressões como `*(p+1)` e `*(p+2)`, é possível acessar os próximos elementos. Depois do comando `p++`, o ponteiro passa a apontar para a segunda posição do vetor, fazendo com que `*p` passe a valer 20.
+
+No exercício 9c, aprendi o conceito de ponteiro para ponteiro. A variável `pp` armazena o endereço do ponteiro `p`, que por sua vez aponta para `x`. Ao utilizar `**pp = 100`, o valor de `x` é alterado para 100, mesmo passando por dois níveis de ponteiros.
+
+Com esses exercícios, consegui entender que os ponteiros armazenam endereços de memória, permitem acessar e modificar variáveis e também podem ser utilizados para percorrer vetores e trabalhar com diferentes níveis de indireção.
