@@ -1,1 +1,14 @@
+Exercício 1 – Olá, Mundo com retorno**
+
+Primeiro, copiei o código e executei o programa. Quando ele começou a rodar, a função `main` foi chamada e apareceu na pilha de chamadas (call stack). Em seguida, o comando `printf` mostrou a mensagem **"Ola, mundo!"** na tela.
+
+Depois disso, o comando `return 0;` encerrou a execução da função `main`. Nesse momento, o frame da função foi removido da pilha de chamadas e o programa terminou normalmente.
+
+O valor `0` retornado indica que o programa foi executado com sucesso, sem erros.
+
+**Saída do programa:**
+
+```
+Ola, mundo!
+```
 
