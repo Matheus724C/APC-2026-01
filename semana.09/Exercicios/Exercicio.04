@@ -1,0 +1,9 @@
+Nesse exercício, eu observei como funcionam a divisão inteira, o operador de resto (`%`), o pré-incremento, o pós-incremento e o operador ternário.
+
+Na divisão `17 / 5`, o resultado é 3, porque a linguagem C faz uma divisão inteira quando os dois valores são do tipo `int`, descartando a parte decimal. Já o operador `%` retorna o resto da divisão, que nesse caso é 2.
+
+Também foi possível ver a diferença entre o pré-incremento (`++x`) e o pós-incremento (`x++`). No pré-incremento, o valor da variável é aumentado antes de ser usado, então `pre` recebe 4. No pós-incremento, o valor é usado primeiro e só depois é incrementado, então `pos` recebe 4, mas a variável `x` termina com o valor 5.
+
+Por fim, o operador ternário (`? :`) foi utilizado para comparar os valores de `a` e `b` e armazenar o maior deles na variável `max`. Como `17` é maior que `5`, o resultado foi **17**.
+
+Com esse exercício, consegui entender melhor como funcionam essas operações básicas e a diferença entre pré e pós-incremento na linguagem C.
