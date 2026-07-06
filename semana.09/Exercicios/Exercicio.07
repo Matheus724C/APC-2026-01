@@ -1,0 +1,7 @@
+Nesse exercício, eu aprendi como funcionam os arrays e as matrizes na linguagem C.
+
+O vetor `v` armazena cinco números: 10, 20, 30, 40 e 50. Em seguida, o programa utiliza um laço `for` para percorrer todas as posições do vetor e somar seus valores. No final, a soma dos elementos é 150.
+
+Depois, o programa cria uma matriz 2x3 com os valores de 1 a 6. Ao acessar a posição `m[1][2]`, o resultado é 6, pois corresponde à segunda linha e terceira coluna da matriz.
+
+Com esse exercício, consegui entender como acessar os elementos de um vetor e de uma matriz utilizando índices, além de perceber como o laço `for` facilita o processamento de todos os elementos. Também observei que a linguagem C não verifica automaticamente se os índices estão dentro dos limites do array, sendo necessário tomar cuidado para evitar erros.
