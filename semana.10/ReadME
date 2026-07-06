@@ -1,1 +1,299 @@
+# README - O que eu aprendi estudando Python
+
+## Introdução
+
+Durante o estudo deste material, aprendi diversos conceitos importantes sobre a linguagem Python e também consegui entender as principais diferenças entre Python e C. O conteúdo mostrou não apenas a sintaxe da linguagem, mas também como ela funciona internamente, principalmente em relação ao uso da memória e ao funcionamento das variáveis.
+
+---
+
+# O que eu aprendi
+
+## Estrutura de um programa
+
+Aprendi que um programa em Python é muito mais simples de começar do que em C.
+
+Enquanto em C precisamos usar `#include`, criar a função `main()` e retornar um valor, em Python basta escrever o código diretamente no arquivo.
+
+Também aprendi para que serve:
+
+```python
+if __name__ == "__main__":
+```
+
+Esse trecho faz com que uma parte do código seja executada somente quando o arquivo for iniciado diretamente.
+
+---
+
+## Variáveis e tipos
+
+Entendi que, diferente de C, em Python as variáveis não possuem um tipo fixo.
+
+Uma mesma variável pode armazenar diferentes tipos de dados ao longo da execução do programa.
+
+Exemplo:
+
+```python
+x = 10
+x = "Olá"
+```
+
+Também aprendi os principais tipos da linguagem:
+
+* int
+* float
+* bool
+* str
+* list
+* tuple
+* None
+
+---
+
+## Objetos e referências
+
+Esse foi um dos assuntos mais interessantes.
+
+Aprendi que uma variável em Python funciona como uma etiqueta que aponta para um objeto na memória, enquanto em C ela representa um espaço fixo de memória.
+
+Também aprendi que duas variáveis podem apontar para o mesmo objeto.
+
+Exemplo:
+
+```python
+a = [1,2,3]
+b = a
+```
+
+Se modificar `b`, a lista de `a` também muda.
+
+---
+
+## Operadores
+
+Aprendi os operadores matemáticos:
+
+* *
+* *
+* *
+* /
+* //
+* %
+* **
+
+Também aprendi operadores lógicos:
+
+* and
+* or
+* not
+
+E operadores de comparação:
+
+* ==
+* !=
+* >
+* <
+* > =
+* <=
+
+Além disso, descobri a diferença entre:
+
+* `==` → compara valores
+* `is` → compara se é exatamente o mesmo objeto.
+
+---
+
+## Estruturas de decisão
+
+Aprendi a utilizar:
+
+* if
+* elif
+* else
+
+Também conheci o `match/case`, que funciona de forma parecida com o `switch` da linguagem C.
+
+---
+
+## Estruturas de repetição
+
+Aprendi dois tipos principais de laços:
+
+### while
+
+Executa enquanto a condição for verdadeira.
+
+### for
+
+Percorre listas, strings e outros objetos iteráveis usando o `range()` ou diretamente os elementos da coleção.
+
+Também aprendi o uso de:
+
+* break
+* continue
+
+---
+
+## Funções
+
+Aprendi como criar funções utilizando `def`.
+
+Também entendi que funções podem:
+
+* receber parâmetros;
+* retornar valores;
+* possuir parâmetros com valores padrão;
+* retornar mais de um valor.
+
+Além disso, conheci as funções lambda.
+
+---
+
+## Listas
+
+Aprendi que listas são parecidas com arrays, porém muito mais flexíveis.
+
+Elas podem:
+
+* crescer automaticamente;
+* armazenar diferentes tipos;
+* adicionar elementos com `append()`;
+* remover elementos com `pop()`.
+
+Também aprendi sobre cópias e referências.
+
+---
+
+## Strings
+
+Aprendi diversas operações com strings:
+
+* concatenação;
+* fatiamento;
+* tamanho com `len()`;
+* transformação para maiúsculas e minúsculas;
+* substituição de caracteres;
+* divisão usando `split()`.
+
+Também descobri que strings são imutáveis.
+
+---
+
+## Memória
+
+Um dos conceitos mais importantes foi entender como Python gerencia memória.
+
+Aprendi que:
+
+* não existe `malloc()`;
+* não existe `free()`;
+* o Garbage Collector libera automaticamente a memória quando um objeto não está mais sendo utilizado.
+
+Isso torna o desenvolvimento muito mais seguro.
+
+---
+
+## Classes
+
+Aprendi como criar objetos utilizando classes.
+
+Também entendi o papel do método:
+
+```python
+__init__()
+```
+
+que funciona como um construtor.
+
+Além disso, vi que classes em Python podem possuir atributos e métodos.
+
+---
+
+## Entrada e saída
+
+Aprendi a utilizar:
+
+```python
+print()
+```
+
+para mostrar informações na tela.
+
+Também aprendi a utilizar:
+
+```python
+input()
+```
+
+para receber dados do usuário.
+
+Conheci ainda as f-strings, que facilitam muito a formatação de textos.
+
+---
+
+## Módulos
+
+Aprendi que podemos importar funcionalidades prontas utilizando:
+
+```python
+import
+```
+
+Um exemplo foi o módulo:
+
+```python
+math
+```
+
+que oferece funções matemáticas como:
+
+* sqrt()
+* factorial()
+* pi
+
+---
+
+## Escopo
+
+Aprendi como funciona o escopo das variáveis.
+
+Conheci a regra LEGB:
+
+* Local
+* Enclosing
+* Global
+* Built-in
+
+Também aprendi quando utilizar `global` e `nonlocal`.
+
+---
+
+## Boas práticas
+
+O material também mostrou várias boas práticas de programação.
+
+Entre elas:
+
+* inicializar variáveis corretamente;
+* utilizar tratamento de exceções com `try` e `except`;
+* usar `with` para trabalhar com arquivos;
+* preferir objetos imutáveis quando possível;
+* escrever código organizado e legível.
+
+---
+
+# O que achei mais interessante
+
+Na minha opinião, a parte mais interessante foi entender como Python trabalha com objetos e referências.
+
+Antes eu imaginava que as variáveis armazenavam diretamente os valores, mas descobri que elas apenas apontam para objetos existentes na memória.
+
+Também gostei de aprender como o Garbage Collector elimina automaticamente objetos que não estão mais sendo utilizados, evitando vários problemas comuns em C.
+
+---
+
+# Conclusão
+
+Depois de estudar este material, percebi que Python é uma linguagem muito mais simples de escrever do que C, mas por trás dessa simplicidade existem vários conceitos importantes sobre memória, objetos, referências e funcionamento interno da linguagem.
+
+Esse conteúdo me ajudou a compreender melhor como Python realmente funciona e também reforçou vários conceitos de programação que são úteis em qualquer linguagem.
 
