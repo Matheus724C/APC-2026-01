@@ -1,0 +1,7 @@
+Nesse exercício, eu aprendi como utilizar a função `printf()` para exibir diferentes tipos de dados na linguagem C.
+
+O programa imprime um número inteiro em formato decimal e hexadecimal, um número decimal com duas casas após a vírgula, um caractere, uma string e o endereço de memória da string. O valor 255 aparece como `ff` quando é utilizado o especificador `%x`, pois ele converte o número para hexadecimal. Já o especificador `%.2f` limita a exibição do número decimal a duas casas.
+
+Também foi possível observar que `%c` é utilizado para imprimir um caractere, `%s` para exibir uma string e `%p` para mostrar o endereço de memória de uma variável.
+
+Com esse exercício, consegui entender como funcionam os principais especificadores de formato do `printf()` e como eles permitem exibir diferentes tipos de dados de maneira adequada.:::
