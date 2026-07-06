@@ -1,0 +1,7 @@
+Nesse exercício, eu aprendi a importância de seguir boas práticas ao programar em C para evitar erros e problemas de segurança.
+
+O programa utiliza a função `strncpy()` para copiar uma string para um vetor de caracteres de forma segura. Como o vetor `destino` possui apenas 8 bytes, a cópia é limitada a 7 caracteres e o último espaço é reservado para o caractere `'\0'`, que indica o fim da string. Dessa forma, evita-se que a string ultrapasse o tamanho do vetor e cause um estouro de buffer.
+
+Também foi possível entender que é importante inicializar as variáveis antes de usá-las, verificar o retorno de funções como `malloc()` e `fopen()`, liberar a memória com `free()` após utilizar `malloc()` e utilizar `const` quando um valor não deve ser alterado.
+
+Com esse exercício, consegui perceber que seguir essas boas práticas torna o programa mais seguro, organizado e menos sujeito a erros durante a execução.
