@@ -1,0 +1,7 @@
+Nesse exercício, eu aprendi como funciona o pré-processador na linguagem C e como utilizar `#define` para criar constantes e macros.
+
+A constante `PI` foi definida para representar o valor de π e utilizada no cálculo da área de um círculo. A macro `QUADRADO(x)` calcula o quadrado de um valor, enquanto a macro `MAX(a,b)` retorna o maior entre dois números.
+
+Também foi possível observar que as macros fazem apenas uma substituição textual antes da compilação. Por isso, elas devem ser escritas com parênteses para evitar erros em expressões mais complexas. No exemplo `QUADRADO(a+1)`, o resultado é calculado corretamente porque a macro foi definida com parênteses.
+
+Com esse exercício, consegui entender como o pré-processador funciona, como criar constantes e macros e por que é importante tomar cuidado ao utilizá-las para evitar resultados inesperados.
