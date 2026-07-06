@@ -1,0 +1,7 @@
+Nesse exercício, eu aprendi como funcionam os `enums` na linguagem C.
+
+O `enum` `DiaSemana` cria um conjunto de constantes nomeadas para representar os dias da semana. O primeiro valor, `DOM`, recebe o número 0 automaticamente, e os demais recebem os valores seguintes, até `SAB`, que vale 6.
+
+A função `nome_dia()` utiliza um `switch` para retornar o nome correspondente a cada valor do `enum`. No programa principal, um laço `for` percorre todos os dias da semana, do `DOM` até o `SAB`, imprimindo o número e o nome de cada dia.
+
+Com esse exercício, consegui entender que um `enum` é tratado como um número inteiro, mas torna o código mais organizado e fácil de entender, pois utiliza nomes em vez de valores numéricos diretamente.:::
