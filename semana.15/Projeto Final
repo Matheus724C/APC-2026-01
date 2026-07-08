@@ -1,0 +1,52 @@
+# PDAD 2024 — Infraestrutura e Condições dos Domicílios (Recorte D)
+
+Sistema com interface gráfica (tkinter) para explorar os microdados da PDAD
+2024 do Distrito Federal sob a ótica da infraestrutura domiciliar. O sistema
+usa a tabela de domicílios como fonte principal e permite comparar o acesso
+a água, esgoto, energia e internet entre as Regiões Administrativas do DF,
+além de investigar a relação entre o tamanho do domicílio (número de
+pessoas) e o tipo de imóvel. Todos os filtros, gráficos e estatísticas são
+recalculados dinamicamente na própria janela, sem necessidade de editar o
+código ou abrir arquivos externos.
+
+## Como executar
+
+1. Instale as dependências (veja abaixo).
+2. Coloque os arquivos de dados na mesma pasta de `sistema.py` (veja seção
+   "Arquivos de dados necessários").
+3. Execute:
+
+```bash
+python sistema.py
+```
+
+## Dependências
+
+```bash
+pip install pandas matplotlib openpyxl
+```
+
+(`openpyxl` é necessário para o pandas ler arquivos `.xlsx`.)
+
+## Arquivos de dados necessários
+
+Baixe os arquivos originais em <https://pdad.ipe.df.gov.br> e coloque-os na
+mesma pasta do `sistema.py`, com estes nomes exatos:
+
+- `PDAD_2024-Domicilios.xlsx`
+- `Dicionario_de_variaveis_PDAD_2024.xlsx`
+
+## Observação sobre os nomes das colunas
+
+O sistema tenta identificar automaticamente, a partir do dicionário de
+variáveis, quais colunas da tabela de domicílios correspondem a água,
+esgoto, energia, internet e tipo de imóvel (blocos B e D). Ao abrir o
+programa, se alguma coluna não for encontrada automaticamente, uma
+mensagem de aviso indica isso: nesse caso, basta abrir
+`Dicionario_de_variaveis_PDAD_2024.xlsx`, localizar o código exato da
+variável desejada e preenchê-lo no dicionário `COLUNAS_MANUAIS`, no início
+do arquivo `sistema.py`.
+
+## Integrantes
+
+- Matheus Macedo de Matos
