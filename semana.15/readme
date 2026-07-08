@@ -12,8 +12,10 @@ código ou abrir arquivos externos.
 ## Como executar
 
 1. Instale as dependências (veja abaixo).
-2. Coloque os arquivos de dados na mesma pasta de `sistema.py` (veja seção
-   "Arquivos de dados necessários").
+2. Coloque os dois arquivos de dados na **mesma pasta** de `sistema.py` (veja
+   "Arquivos de dados necessários"). O programa localiza os arquivos pela
+   pasta onde o `sistema.py` está salvo, então funciona não importa de onde
+   o comando `python` seja executado.
 3. Execute:
 
 ```bash
@@ -36,17 +38,57 @@ mesma pasta do `sistema.py`, com estes nomes exatos:
 - `PDAD_2024-Domicilios.xlsx`
 - `Dicionario_de_variaveis_PDAD_2024.xlsx`
 
-## Observação sobre os nomes das colunas
+> **Atenção ao baixar:** o Windows às vezes salva o arquivo com a extensão
+> duplicada (`PDAD_2024-Domicilios.xlsx.xlsx`) sem mostrar isso no Explorer.
+> Se o programa disser que não encontrou o arquivo mesmo com ele na pasta
+> certa, rode `dir PDAD*` no terminal para conferir o nome exato e renomeie
+> se for o caso.
 
-O sistema tenta identificar automaticamente, a partir do dicionário de
-variáveis, quais colunas da tabela de domicílios correspondem a água,
-esgoto, energia, internet e tipo de imóvel (blocos B e D). Ao abrir o
-programa, se alguma coluna não for encontrada automaticamente, uma
-mensagem de aviso indica isso: nesse caso, basta abrir
-`Dicionario_de_variaveis_PDAD_2024.xlsx`, localizar o código exato da
-variável desejada e preenchê-lo no dicionário `COLUNAS_MANUAIS`, no início
-do arquivo `sistema.py`.
+## O sistema
 
-## Integrantes
+A janela principal mostra o total de domicílios carregados e tem duas abas:
 
-- Matheus Macedo de Matos
+**Infraestrutura por RA** — escolha um indicador (água, esgoto, energia ou
+internet) e uma categoria de resposta (ex.: "1 - Sim"). Com "Todas as RAs"
+selecionado, o gráfico compara o percentual daquela categoria entre as
+Regiões Administrativas; escolhendo uma RA específica, o gráfico mostra a
+distribuição completa das categorias daquele indicador ali. Estatísticas de
+total, contagem e percentual aparecem abaixo do gráfico, e o filtro atual
+pode ser exportado em `.csv` ou `.txt`.
+
+**Tamanho x Tipo de Imóvel** — histograma do número de pessoas por
+domicílio, filtrável por tipo de imóvel (Casa, Apartamento, Cômodo), com
+média, mediana e moda calculadas para o filtro atual.
+
+Os códigos de resposta (1, 2, 3...) são traduzidos automaticamente para
+texto legível (ex.: "1 - Sim", "2 - Apartamento"), lendo as descrições
+direto do `Dicionario_de_variaveis_PDAD_2024.xlsx`.
+
+## Colunas usadas (blocos B e D/C do questionário de domicílios)
+
+O sistema já vem configurado com os códigos confirmados no dicionário real
+da PDAD 2024:
+
+| Indicador       | Código | Descrição                                                |
+|-----------------|--------|-----------------------------------------------------------|
+| Água            | `B13`  | Acesso à rede CAESB/Saneago de abastecimento de água       |
+| Esgoto          | `B14`  | Acesso à rede CAESB/Saneago de coleta de esgoto             |
+| Energia         | `B15`  | Acesso à rede Neoenergia/Enel de energia elétrica            |
+| Internet        | `C05`  | Domicílio possuía acesso à internet no último mês            |
+| Tipo de imóvel  | `B02`  | Tipo do domicílio (Casa/Apartamento/Cômodo)                  |
+| Localidade      | `localidade` | Região Administrativa                                   |
+| Nº de pessoas   | `A01npessoas` | Quantidade de pessoas no domicílio                      |
+
+Se algum desses códigos não bater com a versão dos dados que vocês baixaram,
+o programa tenta detectar a coluna certa automaticamente pelo dicionário de
+variáveis e, se não conseguir, mostra um aviso ao abrir. Nesse caso, edite o
+dicionário `COLUNAS_MANUAIS` no início do `sistema.py` com o código correto.
+
+## Tratamento de valores sentinela
+
+O código remove as linhas com os códigos 99999 (não se aplica) e 88888 (não
+declarado) em todas as colunas utilizadas, antes de qualquer cálculo
+estatístico ou geração de gráfico.
+
+## Integrante
+- Matheus Macedo de Matos 
