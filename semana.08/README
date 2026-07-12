@@ -1,1 +1,35 @@
+# Atividades – Code.org (Game Lab)
 
+## Descrição
+
+Este repositório reúne os exercícios desenvolvidos durante as lições **Collisions**, **Functions** e **Project – Design a Game** do curso **Game Lab**, disponibilizado pela plataforma **Code.org**. As atividades tiveram como objetivo consolidar os conhecimentos adquiridos ao longo do curso, explorando conceitos fundamentais para o desenvolvimento de jogos utilizando JavaScript.
+
+> **Observação:** Todos os códigos presentes neste repositório foram desenvolvidos a partir da **Primeira Avaliação (Assessment 1)** das lições **Collisions**, **Functions** e **Project – Design a Game**, servindo como forma de aplicar e consolidar os conteúdos estudados.
+
+## Conteúdo Aprendido
+
+### Lição 16 – Collisions
+
+Nesta lição foram aprofundados os conceitos de colisão entre sprites. Foram utilizados métodos para detectar quando objetos entram em contato e definir diferentes comportamentos, como impedir sobreposição, fazer objetos quicarem, coletar itens e criar interações essenciais para jogos.
+
+### Lição 17 – Functions
+
+A décima sétima lição apresentou a criação de funções personalizadas, permitindo organizar melhor o código e reutilizar comandos sempre que necessário. Foram aprendidos conceitos como declaração de funções, passagem de parâmetros e divisão do programa em partes menores, tornando o desenvolvimento mais organizado e eficiente.
+
+### Lição 18 – Project – Design a Game
+
+A última lição consistiu no desenvolvimento de um **projeto final**, reunindo todos os conhecimentos adquiridos ao longo do curso. Durante essa atividade foram aplicados conceitos como criação de sprites, movimentação, velocidade, colisões, estruturas condicionais, entrada por teclado e mouse, utilização de variáveis, números aleatórios, funções e animações, resultando na construção de um jogo funcional desenvolvido no Game Lab.
+
+## Objetivo
+
+O objetivo destas atividades foi consolidar os conhecimentos adquiridos durante o curso, colocando em prática os principais conceitos de programação para desenvolvimento de jogos. O projeto final permitiu integrar todos os conteúdos estudados nas lições anteriores, demonstrando a evolução no uso da linguagem JavaScript e das ferramentas do Game Lab.
+
+## Tecnologias Utilizadas
+
+- **Plataforma:** Code.org
+- **Ambiente:** Game Lab
+- **Linguagem:** JavaScript
+
+## Considerações Finais
+
+Os exercícios desenvolvidos permitiram compreender os principais conceitos utilizados na criação de jogos, desde a manipulação de sprites até a organização do código com funções. A última atividade, **Project – Design a Game**, representou a conclusão do curso, reunindo todos os conhecimentos aprendidos nas lições anteriores em um único projeto prático. Todos os códigos deste repositório foram retirados da **Primeira Avaliação (Assessment 1)** de cada uma das lições, possibilitando aplicar e consolidar, na prática, todo o conteúdo estudado ao longo do curso.
