@@ -1,1 +1,19 @@
+background("skyBlue");
 
+fill("red");
+ellipse(100, randomNumber(190,210), randomNumber(25,50), randomNumber(25,50));
+
+fill("orange");
+ellipse(140, randomNumber(190,210), 50, 50);
+
+fill("yellow");
+ellipse(180, randomNumber(190,210), 50, 50);
+
+fill("green");
+ellipse(220, randomNumber(190,210), 50, 50);
+
+fill("blue");
+ellipse(260, randomNumber(190,210), 50, 50);
+
+fill("purple");
+ellipse(300, randomNumber(190,210), randomNumber(25,50),randomNumber(25,50));
