@@ -1,1 +1,35 @@
+# Atividades – Code.org (Game Lab)
 
+## Descrição
+
+Este repositório reúne os exercícios desenvolvidos durante as lições **Velocity**, **Collision Detection** e **Complex Sprite Movement** do curso **Game Lab**, disponibilizado pela plataforma **Code.org**. As atividades tiveram como objetivo aprofundar os conhecimentos em programação utilizando JavaScript, explorando conceitos relacionados ao movimento de sprites, detecção de colisões e criação de mecânicas mais avançadas para jogos.
+
+> **Observação:** Todos os códigos presentes neste repositório foram desenvolvidos a partir da **Primeira Avaliação (Assessment 1)** das lições **Velocity**, **Collision Detection** e **Complex Sprite Movement**, servindo como forma de aplicar e consolidar os conteúdos estudados.
+
+## Conteúdo Aprendido
+
+### Lição 13 – Velocity
+
+Nesta lição foi apresentado o conceito de velocidade aplicada aos sprites. Foram utilizadas as propriedades `velocityX` e `velocityY` para movimentar objetos automaticamente, possibilitando criar animações contínuas sem a necessidade de alterar manualmente a posição dos sprites a cada atualização da tela.
+
+### Lição 14 – Collision Detection
+
+A décima quarta lição introduziu os mecanismos de detecção de colisões entre sprites. Foram utilizados métodos para verificar quando dois objetos entram em contato, permitindo desenvolver jogos em que personagens interagem com obstáculos, coletam itens ou acionam eventos específicos.
+
+### Lição 15 – Complex Sprite Movement
+
+Nesta etapa foram estudadas formas mais avançadas de movimentação de sprites, combinando velocidade, entrada do usuário e detecção de colisões. Os exercícios abordaram a criação de controles mais precisos, movimentação em diferentes direções e comportamentos mais próximos dos encontrados em jogos completos.
+
+## Objetivo
+
+O objetivo destas atividades foi aprofundar os conhecimentos sobre programação de jogos no Game Lab, desenvolvendo habilidades relacionadas ao controle de movimento dos sprites, utilização de velocidade, implementação de colisões e construção de mecânicas mais elaboradas. Os exercícios permitiram aplicar na prática os conceitos apresentados nas lições e fortalecer a lógica de programação utilizando JavaScript.
+
+## Tecnologias Utilizadas
+
+- **Plataforma:** Code.org
+- **Ambiente:** Game Lab
+- **Linguagem:** JavaScript
+
+## Considerações Finais
+
+Os exercícios desenvolvidos contribuíram para compreender conceitos essenciais para o desenvolvimento de jogos, como movimentação automática de sprites, detecção de colisões e implementação de mecânicas mais complexas. Todos os códigos deste repositório foram retirados da **Primeira Avaliação (Assessment 1)** de cada uma das lições, permitindo aplicar na prática os conteúdos estudados e consolidar os conhecimentos adquiridos ao longo do curso.
