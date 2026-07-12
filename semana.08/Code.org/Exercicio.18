@@ -1,1 +1,139 @@
 
+var score = 0;
+var health = 100;
+
+var player = createSprite(200, 300);
+player.setAnimation("alien");
+player.scale = 0.8;
+
+var enemy = createSprite(450, 200);
+enemy.setAnimation("monster");
+resetEnemy(); 
+
+var coin = createSprite(200, -50);
+coin.setAnimation("coin");
+resetCoin(); 
+
+
+function draw() {
+  
+  
+  if (score < 10) {
+    backgroundMenu();
+  } else {
+    backgroundGame();
+  }
+
+
+  playerControls();
+  enemyMovement();
+  itemMovement();
+
+
+  checkCollisions();
+  checkCollectibles();
+
+
+  displayScore();
+  displayHealth();
+  drawSprites();
+
+  if (health <= 0) {
+    background("black");
+    fill("red");
+    textAlign(CENTER);
+    textSize(50);
+    text("GAME OVER", 200, 200);
+    stopAll();
+  }
+}
+
+function playerControls() {
+  if (keyDown("left")) {
+    player.x = player.x - 5;
+  }
+  if (keyDown("right")) {
+    player.x = player.x + 5;
+  }
+  if (keyDown("up")) {
+    player.y = player.y - 5;
+  }
+  if (keyDown("down")) {
+    player.y = player.y + 5;
+  }
+}
+
+function enemyMovement() {
+
+  if (enemy.x < -50) {
+    resetEnemy();
+  }
+}
+
+function itemMovement() {
+
+  if (coin.y > 450) {
+    resetCoin();
+  }
+}
+
+function checkCollisions() {
+
+  if (player.isTouching(enemy)) {
+    health = health - 20;
+    resetEnemy(); 
+  }
+}
+
+function checkCollectibles() {
+  if (player.isTouching(coin)) {
+    score = score + 1;
+    resetCoin();
+  }
+}
+
+function resetEnemy() {
+  enemy.x = 450;
+  enemy.y = random(50, 350);
+  enemy.velocityX = -4 - (score / 5); // Fica mais rápido conforme o score aumenta
+  enemy.rotationSpeed = 2;
+  enemy.scale = 0.2;
+}
+
+function resetCoin() {
+  coin.x = random(50, 350);
+  coin.y = -50;
+  coin.velocityY = 3;
+  coin.scale = 0.5;
+}
+
+function backgroundMenu() {
+  background("orange");
+  fill("white");
+  textSize(18);
+  textAlign(CENTER);
+  text("Colete 10 moedas para a festa!", 200, 150);
+}
+
+function backgroundGame() {
+  background("lightblue");
+}
+
+function displayScore() {
+  fill("black");
+  textSize(20);
+  textAlign(LEFT);
+  text("Score: " + score, 20, 30);
+}
+
+function displayHealth() {
+  fill("red");
+  textSize(20);
+  text("Health: " + health, 20, 60);
+}
+
+function stopAll() {
+  player.setVelocity(0, 0);
+  enemy.setVelocity(0, 0);
+  coin.setVelocity(0, 0);
+}
