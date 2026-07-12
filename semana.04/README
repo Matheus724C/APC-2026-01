@@ -1,1 +1,35 @@
+# Atividades – Code.org (Game Lab)
 
+## Descrição
+
+Este repositório reúne os exercícios desenvolvidos durante as lições **Random Numbers**, **Sprites** e **Sprite Properties** do curso **Game Lab**, disponibilizado pela plataforma **Code.org**. As atividades tiveram como objetivo aprofundar os conhecimentos em programação utilizando JavaScript, explorando recursos voltados para a criação de jogos e animações.
+
+> **Observação:** Todos os códigos presentes neste repositório foram desenvolvidos a partir da **Primeira Avaliação (Assessment 1)** das lições **Random Numbers**, **Sprites** e **Sprite Properties**, servindo como forma de aplicar e consolidar os conteúdos estudados.
+
+## Conteúdo Aprendido
+
+### Lição 4 – Random Numbers
+
+Nesta lição foi apresentado o conceito de números aleatórios, permitindo criar programas com comportamentos diferentes a cada execução. Foram utilizados valores gerados aleatoriamente para definir posições, tamanhos, velocidades e outras características dos objetos, tornando as aplicações mais dinâmicas e interativas.
+
+### Lição 5 – Sprites
+
+A quinta lição introduziu o conceito de sprites, que representam objetos gráficos utilizados em jogos e animações. Foram aprendidos os processos de criação, posicionamento e exibição de sprites na tela, além da utilização da função `drawSprites()` para desenhá-los e organizar cenas mais complexas.
+
+### Lição 6 – Sprite Properties
+
+Nesta etapa foram estudadas as propriedades dos sprites, possibilitando alterar suas características durante a execução do programa. Foram utilizados atributos como posição, escala, largura, altura, rotação e velocidade, permitindo controlar o comportamento dos objetos e criar animações mais elaboradas.
+
+## Objetivo
+
+O objetivo destas atividades foi aprofundar os conhecimentos sobre programação no Game Lab, desenvolvendo habilidades relacionadas à utilização de números aleatórios, criação de sprites e manipulação de suas propriedades. Os exercícios permitiram aplicar na prática os conceitos apresentados nas lições, fortalecendo a lógica de programação e a utilização da linguagem JavaScript.
+
+## Tecnologias Utilizadas
+
+- **Plataforma:** Code.org
+- **Ambiente:** Game Lab
+- **Linguagem:** JavaScript
+
+## Considerações Finais
+
+Os exercícios desenvolvidos contribuíram para ampliar a compreensão dos recursos utilizados na construção de jogos e animações. Todos os códigos deste repositório foram retirados da **Primeira Avaliação (Assessment 1)** de cada uma das lições, permitindo colocar em prática os conhecimentos adquiridos ao longo do curso e consolidar os conceitos estudados.
