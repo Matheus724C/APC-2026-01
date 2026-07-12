@@ -1,1 +1,12 @@
+var rock = createSprite(200, 350);
+rock.setAnimation("rock");
+rock.velocityY = -6;
 
+function draw() {
+  background("lightblue");
+
+
+  rock.velocityY = rock.velocityY + 0.2;
+
+  drawSprites();
+}
