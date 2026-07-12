@@ -1,1 +1,41 @@
+var orangeFish = createSprite(400, randomNumber(0, 100));
+orangeFish.setAnimation("orange_fish");
 
+var blueFish = createSprite(250, randomNumber(0, 200));
+blueFish.setAnimation("blue_fish");
+
+var greenFish = createSprite(300, randomNumber(200, 300));
+greenFish.setAnimation("green_fish");
+
+// variável da bolha
+var bubbleY = 400;
+
+function draw() {
+  background("navy");
+  
+  // só move quando apertar a seta esquerda
+  if (keyDown("left")) {
+    orangeFish.x = orangeFish.x - 2;
+    greenFish.x = greenFish.x - 3;
+    blueFish.x = blueFish.x - 4;
+  }
+
+  // Wiggle
+  orangeFish.rotation = randomNumber(-10, 10);
+  blueFish.rotation = randomNumber(-10, 10);
+  greenFish.rotation = randomNumber(-10, 10);
+
+  //  Bolha
+  noFill();
+  stroke("white");
+  strokeWeight(2);
+  ellipse(200, bubbleY, 20, 20);
+
+  bubbleY = bubbleY - 2;
+
+  if (bubbleY < 0) {
+    bubbleY = 400;
+  }
+
+  drawSprites();
+}
