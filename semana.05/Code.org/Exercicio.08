@@ -1,1 +1,7 @@
+var salt = createSprite(200,200);
+salt.setAnimation("salt");
 
+function draw() {
+  background("skyblue");
+  drawSprites();
+}
