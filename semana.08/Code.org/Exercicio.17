@@ -1,1 +1,69 @@
+var coin = createSprite(200, 10);
+coin.setAnimation("coin_gold_1");
+setCoin();
 
+var bunny = createSprite(200, 350);
+bunny.setAnimation("bunny1_ready_1");
+
+var score = 0;
+
+function draw() {
+  if (score >= 10) {
+    sillyBackground();
+  } else {
+    simpleBackground();
+  }
+
+  if (keyDown("left")) {
+    bunny.x = bunny.x - 2;
+  }
+  if (keyDown("right")) {
+    bunny.x = bunny.x + 2;
+  }
+
+  // catch coin
+  if (coin.isTouching(bunny)) {
+    score = score + 1;
+    setCoin();
+  }
+
+  // reset if it falls
+  if (coin.y > 400) {
+    setCoin();
+  }
+
+  drawSprites();
+  
+  // Draw score on top of everything
+  fill("black");
+  textSize(20);
+  text("Score: " + score, 10, 30);
+}
+
+
+function simpleBackground() {
+  background("skyblue");
+  noStroke();
+  fill("green");
+  rect(0, 350, 400, 50); 
+}
+
+function sillyBackground() {
+  background("pink");
+  fill("purple");
+  ellipse(50, 50, 40, 40);
+  fill("yellow");
+  ellipse(350, 80, 60, 60);
+  fill("orange");
+  ellipse(200, 150, 30, 30);
+
+  fill("white");
+  textSize(30);
+  text("PARTY TIME!", 120, 200);
+}
+
+function setCoin() {
+  coin.x = Math.round(random(20, 380));
+  coin.y = 10;
+  coin.velocityY = 3;
+}
