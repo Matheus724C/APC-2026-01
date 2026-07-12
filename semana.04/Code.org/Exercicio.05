@@ -1,1 +1,12 @@
+var cat = createSprite(100, 200);
+var dog = createSprite(300, 200);
 
+// cada sprite com uma animação diferente
+cat.setAnimation("cat");
+dog.setAnimation("dog");
+
+function draw() {
+  background(200, 230, 255); // fundo clarinho
+  
+  drawSprites();
+}
