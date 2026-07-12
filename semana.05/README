@@ -1,1 +1,35 @@
+# Atividades – Code.org (Game Lab)
 
+## Descrição
+
+Este repositório reúne os exercícios desenvolvidos durante as lições **Text**, **The Draw Loop** e **Sprite Movement** do curso **Game Lab**, disponibilizado pela plataforma **Code.org**. As atividades tiveram como objetivo aprofundar os conhecimentos em programação utilizando JavaScript, explorando conceitos relacionados à exibição de textos, animações e movimentação de objetos em jogos.
+
+> **Observação:** Todos os códigos presentes neste repositório foram desenvolvidos a partir da **Primeira Avaliação (Assessment 1)** das lições **Text**, **The Draw Loop** e **Sprite Movement**, servindo como forma de aplicar e consolidar os conteúdos estudados.
+
+## Conteúdo Aprendido
+
+### Lição 7 – Text
+
+Nesta lição foi apresentado o uso de textos dentro do Game Lab. Foram aprendidas funções para exibir mensagens na tela, configurar tamanho, cor e alinhamento da fonte, além de posicionar textos em diferentes locais da tela para complementar a interface dos programas e jogos.
+
+### Lição 8 – The Draw Loop
+
+A oitava lição introduziu o conceito do **Draw Loop**, responsável por atualizar continuamente a tela do programa. Foram estudadas a função `draw()` e sua importância para criar animações, atualizar objetos em tempo real e tornar as aplicações interativas por meio da repetição constante das instruções.
+
+### Lição 9 – Sprite Movement
+
+Nesta etapa foi estudada a movimentação de sprites. Foram utilizados comandos para alterar a posição dos objetos ao longo do tempo, controlar deslocamentos em diferentes direções e criar animações simples, permitindo desenvolver jogos com personagens e elementos em movimento.
+
+## Objetivo
+
+O objetivo destas atividades foi ampliar os conhecimentos sobre programação no Game Lab, desenvolvendo habilidades relacionadas à criação de interfaces com texto, utilização do laço de desenho para animações e movimentação de sprites. Os exercícios permitiram colocar em prática os conceitos apresentados nas lições, fortalecendo a lógica de programação e o uso da linguagem JavaScript.
+
+## Tecnologias Utilizadas
+
+- **Plataforma:** Code.org
+- **Ambiente:** Game Lab
+- **Linguagem:** JavaScript
+
+## Considerações Finais
+
+Os exercícios desenvolvidos contribuíram para compreender conceitos essenciais para a criação de jogos e aplicações interativas, como exibição de textos, atualização contínua da tela e movimentação de objetos. Todos os códigos deste repositório foram retirados da **Primeira Avaliação (Assessment 1)** de cada uma das lições, permitindo aplicar na prática os conteúdos estudados e consolidar os conhecimentos adquiridos durante o curso.
