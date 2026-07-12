@@ -1,1 +1,14 @@
+var eyeSize = 30;
 
+noStroke();
+background("green");
+
+fill("yellow");
+ellipse(200,200,200,200);
+
+fill("black");
+ellipse(160,170,eyeSize,eyeSize);
+ellipse(240,170,eyeSize,eyeSize);
+
+fill("white");
+rect(160,240,80,20);
