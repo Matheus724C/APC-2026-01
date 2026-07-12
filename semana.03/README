@@ -1,1 +1,35 @@
+# Atividades – Code.org (Game Lab)
 
+## Descrição
+
+Este repositório reúne os exercícios desenvolvidos durante o curso **Game Lab**, disponibilizado pela plataforma **Code.org**. O objetivo foi aplicar na prática os conceitos apresentados em cada lição, desenvolvendo habilidades de lógica de programação e utilizando JavaScript para criar desenhos e programas interativos.
+
+> **Observação:** Todos os exercícios presentes neste repositório foram retirados da **Primeira Avaliação (Assessment 1)** de cada lição.
+
+## Conteúdo Aprendido
+
+### Lição 1 – Drawing in Game Lab
+
+Na primeira lição foram apresentados os conceitos iniciais do ambiente Game Lab e as principais funções para criação de desenhos utilizando código. Durante essa etapa foram aprendidos o sistema de coordenadas (eixos X e Y), a criação de formas geométricas, a utilização das funções `background()` e `fill()` para definir cores, além da organização dos elementos na tela e da construção de figuras utilizando formas básicas.
+
+### Lição 2 – Shapes and Parameters
+
+A segunda lição introduziu o conceito de parâmetros em funções, permitindo tornar os desenhos mais flexíveis e reutilizáveis. Foram desenvolvidas habilidades relacionadas à criação de funções personalizadas, reutilização de código, modificação de formas por meio de argumentos e melhoria da organização dos programas, reduzindo a repetição de código.
+
+### Lição 3 – Variables
+
+Na terceira lição foi estudado o uso de variáveis, um dos conceitos fundamentais da programação. Foram aprendidas a declaração e utilização de variáveis para armazenar informações, alterar valores durante a execução do programa e controlar propriedades como posição, tamanho e cor dos objetos, tornando os programas mais dinâmicos e fáceis de modificar.
+
+## Objetivo
+
+As atividades tiveram como objetivo consolidar os conceitos básicos de programação utilizando JavaScript no ambiente Game Lab. Ao longo das lições foi possível desenvolver conhecimentos sobre lógica de programação, organização e reutilização de código, criação de desenhos utilizando funções e utilização de variáveis para tornar os programas mais interativos.
+
+## Tecnologias Utilizadas
+
+- **Plataforma:** Code.org
+- **Ambiente:** Game Lab
+- **Linguagem:** JavaScript
+
+## Considerações Finais
+
+A realização desses exercícios proporcionou uma compreensão prática dos principais conceitos introdutórios de programação. Os desafios propostos em cada avaliação permitiram aplicar os conteúdos aprendidos nas lições e fortalecer a capacidade de desenvolver soluções utilizando JavaScript no Game Lab.
