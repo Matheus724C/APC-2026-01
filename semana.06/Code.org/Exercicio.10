@@ -1,1 +1,16 @@
+var backdrop = createSprite(200,200);
+backdrop.setAnimation("sci_fi");
 
+var dinosaur = createSprite(200, 350);
+dinosaur.scale = 0.2;
+dinosaur.setAnimation("tyrannosaurus");
+
+function draw() {
+  dinosaur.y = dinosaur.y - 5;
+
+  if (dinosaur.y < 150) {
+    dinosaur.setAnimation("pterodactyl");
+  }
+
+  drawSprites();
+}
