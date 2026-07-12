@@ -1,1 +1,35 @@
+# Atividades – Code.org (Game Lab)
 
+## Descrição
+
+Este repositório reúne os exercícios desenvolvidos durante as lições **Conditionals**, **Keyboard Input** e **Mouse Input** do curso **Game Lab**, disponibilizado pela plataforma **Code.org**. As atividades tiveram como objetivo aprofundar os conhecimentos em programação utilizando JavaScript, explorando estruturas de decisão e diferentes formas de interação entre o usuário e a aplicação.
+
+> **Observação:** Todos os códigos presentes neste repositório foram desenvolvidos a partir da **Primeira Avaliação (Assessment 1)** das lições **Conditionals**, **Keyboard Input** e **Mouse Input**, servindo como forma de aplicar e consolidar os conteúdos estudados.
+
+## Conteúdo Aprendido
+
+### Lição 10 – Conditionals
+
+Nesta lição foi introduzido o conceito de estruturas condicionais, permitindo que o programa tome decisões de acordo com determinadas condições. Foram utilizados comandos como `if`, `else if` e `else` para criar diferentes comportamentos, tornando os programas mais inteligentes e interativos.
+
+### Lição 11 – Keyboard Input
+
+A décima primeira lição apresentou os recursos para capturar as ações do teclado. Foram utilizados comandos para identificar quando determinadas teclas são pressionadas, possibilitando controlar personagens, movimentar objetos e criar interações baseadas nas ações do usuário.
+
+### Lição 12 – Mouse Input
+
+Nesta etapa foi estudada a interação com o mouse, permitindo detectar cliques e a posição do cursor durante a execução do programa. Esses recursos possibilitam desenvolver interfaces mais intuitivas, menus interativos e jogos que respondem às ações do usuário em tempo real.
+
+## Objetivo
+
+O objetivo destas atividades foi ampliar os conhecimentos sobre programação no Game Lab, desenvolvendo habilidades relacionadas à tomada de decisões por meio de estruturas condicionais e à criação de aplicações interativas utilizando entradas do teclado e do mouse. Os exercícios permitiram aplicar na prática os conceitos apresentados nas lições, fortalecendo a lógica de programação e o domínio da linguagem JavaScript.
+
+## Tecnologias Utilizadas
+
+- **Plataforma:** Code.org
+- **Ambiente:** Game Lab
+- **Linguagem:** JavaScript
+
+## Considerações Finais
+
+Os exercícios desenvolvidos contribuíram para compreender conceitos essenciais para a criação de jogos e aplicações interativas, como estruturas condicionais, captura de eventos do teclado e interação por meio do mouse. Todos os códigos deste repositório foram retirados da **Primeira Avaliação (Assessment 1)** de cada uma das lições, permitindo aplicar na prática os conteúdos estudados e consolidar os conhecimentos adquiridos durante o curso.
